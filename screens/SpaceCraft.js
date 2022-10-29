@@ -40,7 +40,7 @@ export default class SpaceCraftsScreen extends Component {
                     <Text style={{ fontWeight: 'bold', fontSize: 20, color: 'purple' }}>{item.name}</Text>
 
                        {/* <Text style={{ color: '#696969', fontSize: 16 }}>{item}</Text> */} 
-                       {/* <Text style={{ color: '#696969', fontSize: 16 }}>{item.name}</Text> */} 
+                       {<Text style={{ color: '#696969', fontSize: 16 }}>{item.name}</Text>} 
                        {/* <Text style={{ color: '#696969', fontSize: 16 }}>{item.agency}</Text> */} 
                        {/* <Text style={{ color: '#696969', fontSize: 16 }}>{item.agency.name}</Text> */} 
 
@@ -71,12 +71,12 @@ export default class SpaceCraftsScreen extends Component {
                             <Text style={styles.titleText}>Spacecrafts</Text>
                         </View>
                         <View style={{ flex: 0.85 }}>
-                          {/* <FlatList
+                          {<FlatList
                                 keyExtractor={}
                                 data={this.state.aircrafts}
                                 renderItem={this.renderItem}
                                 initialNumToRender={10}
-                            /> */}
+                            /> }
 
                             {/* <FlatList
                                 keyExtractor={this.keyExtractor}
